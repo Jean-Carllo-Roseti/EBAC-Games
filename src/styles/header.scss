@@ -1,0 +1,12 @@
+.header {
+    text-align: center;
+    background-color: rgb(133, 211, 250);
+    
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        &__item {
+        }
+    }
+}
