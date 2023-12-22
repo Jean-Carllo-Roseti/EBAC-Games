@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .button {
     padding: 6px 8px;
     color: #fff;
@@ -7,31 +9,31 @@
 
     
     &--anima {
-        background-color: green;
+        background-color: variaveis.$animaColor;
 
         &:hover {
-            background-color: lighten(green, 10%);
+            background-color: lighten(variaveis.$animaColor, 10%);
         }
     }
 
     &--designer {
-        background-color: rgb(255, 0, 183);
+        background-color: variaveis.$designerColor;
         &:hover {
-            background-color: lighten(rgb(255, 0, 183), 20%);
+            background-color: lighten(variaveis.$designerColor, 20%);
         }
     }
 
     &--audio {
-        background-color: red;
+        background-color: variaveis.$audioColor;
         &:hover {
-            background-color: lighten(red, 20%);
+            background-color: lighten(variaveis.$audioColor, 20%);
         }
     }
 
     &--roteiro {
-        background-color:blue;
+        background-color: variaveis.$roteiroColor;
         &:hover {
-            background-color: lighten(blue, 20%);
+            background-color: lighten(variaveis.$roteiroColor, 20%);
         }
     }
 }

@@ -1,19 +1,20 @@
+@use 'variaveis';
 
 .colors{
 
     &--anima {
-        background-image: linear-gradient(red,rgb(255, 94, 0));
+        background-image: linear-gradient(variaveis.$backRed ,variaveis.$backOrange);
     }
 
     &--designer {
-        background-image: linear-gradient(rgb(255, 94, 0),rgb(255, 208, 0));
+        background-image: linear-gradient(variaveis.$backOrange,variaveis.$backYeloow);
     }
 
     &--audio {
-        background-image: linear-gradient(rgb(255, 208, 0),rgb(174, 255, 0));
+        background-image: linear-gradient(variaveis.$backYeloow,variaveis.$backGreen1);
     }
 
     &--roteiro {
-        background-image: linear-gradient(rgb(174, 255, 0),rgb(0, 255, 13));
+        background-image: linear-gradient(variaveis.$backGreen1,variaveis.$backGreen2);
     }
 }

@@ -29,7 +29,17 @@
 }
 
 @media (max-width: 640px){
-    .abc {
-        display: block;
+    .animação {
+
+        .abc {
+            display: block;
+            max-width: 90%;
+        }
+
+        .descrição__details {
+            display: block;
+            text-align: center;
+        }
+
     }
 }
