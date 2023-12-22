@@ -25,28 +25,34 @@
         padding: 64px 0; 
     }
     
+    &__title {
+        color: #fff;
+    position: relative;
+    margin-bottom: 24px;
+    }
 
     &__list {
         position: relative;
         display: flex;
         justify-content: space-around;
         gap: 30px;
-        background-color: green;
+        background-color: #fff;
         border-radius: 8px;
         padding: 14px 0;
 
 
 
         &__button {
+            color: #fff;
             padding: 8px 28px;
             border-radius: 14px;
             border: none;
-            background-color: purple;
+            background-color: rgb(244, 10, 244);
             font-weight: 600;
             cursor: pointer;
 
             &:hover {
-                background-color: lighten(purple, 30%);
+                background-color: darken(rgb(244, 10, 244), 10%);
             }
         }
 
@@ -54,7 +60,6 @@
             border-radius: 14px;
             border: none;
             padding: 8px 28px;
-            background-color: #fff;
             
         }
     }

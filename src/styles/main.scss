@@ -1,17 +1,29 @@
-@use 'variaveis';
+@use 'colors';
 @use 'reset';
 @use 'header';
-
+@use 'animacao';
+@use 'buttons';
 
 
 img {
     max-width: 300px;
     width: 100%;
+    border-radius: 24px;
+}
+
+.img_2 {
+    border-radius: 12px;
+    max-width: 200px;
+    width: 100%;
+    margin: 16px 0;
 }
 
 .container {
     margin: 0 auto;
     width: 1024px;
     max-width: 100%;
+}
 
+.inverte {
+    flex-direction: row-reverse;
 }
